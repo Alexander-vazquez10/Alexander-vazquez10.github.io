@@ -1,0 +1,180 @@
+﻿<html>
+	<head>
+		<title>Guillermo González Camarena</title>
+	</head>
+	<body>
+	<body bgcolor="black">
+		
+		 <script>
+    function mostrarHoraFecha() {
+      var fecha = new Date();
+      var dia = fecha.getDate();
+      var mes = fecha.getMonth() + 1; // Los meses van de 0 a 11
+      var año = fecha.getFullYear();
+      var horas = fecha.getHours();
+      var minutos = fecha.getMinutes();
+      var segundos = fecha.getSeconds();
+
+      var formatoHora = horas + ":" + minutos + ":" + segundos;
+      var formatoFecha = dia + "/" + mes + "/" + año;
+
+      document.getElementById("hora").innerHTML = formatoHora;
+      document.getElementById("fecha").innerHTML = formatoFecha;
+    }
+
+    // Actualizar la hora y fecha cada segundo
+    setInterval(mostrarHoraFecha, 1000);
+  </script>
+
+	<font color="white">
+	 <h1>Hora y fecha actual</h1>
+  <p id="hora"></p>
+  <p id="fecha"></p>
+
+<script>
+    // Obtener el contador de visitas almacenado en localStorage
+    var contador = localStorage.getItem("contador");
+    
+    // Verificar si el contador existe
+    if (contador === null) {
+      // Si no existe, establecer el contador en 1
+      contador = 1;
+    } else {
+      // Si existe, incrementar el contador en 1
+      contador = parseInt(contador) + 1;
+    }
+    
+    // Guardar el nuevo valor del contador en localStorage
+    localStorage.setItem("contador", contador);
+  </script>
+
+  <h1>Contador de Visitas</h1>
+  <p>Esta página ha sido visitada <span id="contador"></span> veces.</p>
+
+  <script>
+    // Mostrar el valor del contador en el elemento span con id "contador"
+    document.getElementById("contador").innerHTML = contador;
+  </script>
+	</font>
+		<div class="grid-block" style="background-image: url('tvc.jpg'); background-repeat: no-repeat; background-size: cover; 
+		border-style: ridge; border-color: gray; border-width: 10px; height: 250;">
+		<button onclick="location.href='formulario.html'" 
+		style="color: white; background-color: gray; width: 140; height: 35;">Recomendacion</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<BR><BR><BR><BR><BR> 	
+		<style>
+    @keyframes movimiento-lateral {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(200px); } /* Cambia la distancia de desplazamiento aquí */
+      100% { transform: translateX(0); }
+    }
+
+    .texto-en-movimiento {
+      animation: movimiento-lateral 4s infinite; /* Cambia la duración de la animación aquí */
+    }
+  </style>
+
+  		<H1 ALIGN="CENTER" class="texto-en-movimiento"><FONT COLOR="white" >Quien fue Guillermo Gonzalez Camarena</FONT></H1>
+	
+		</div>
+
+		<br><div class="grid-block" style="background-image: url('fondo.avif'); background-repeat: no-repeat; background-size: cover; 
+		border-style: ridge; border-color: gray; border-width: 10px; height: ;">
+
+		 <style>
+    @keyframes parpadeo {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    .parpadeante {
+      animation: parpadeo 1s infinite;
+    }
+  </style>
+
+
+ 
+
+		
+		<H1 ALIGN="CENTER" class="parpadeante"><FONT COLOR="#43887B" >Su biografia</FONT></H1>
+		<p align="center">
+
+		<button onclick="location.href='inventos.html'" 
+		style="color: white; background-color: gray; width: 140; height: 35;">Sus inventos</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<hr size="4" align="center">
+		<p >
+		<IMG SRC="D:\GGC\GGC.jpg" WIDTH="183" HEIGHT="265" ALIGN="left" HSPACE="20" VSPACE="0">
+		Nacimiento y defunción: 1917-1965<br>
+		Género: Hombre<br>
+		Actividad: Ciencias<br><br>
+
+		Fue un hombre multifacético que por igual investigaba, inventaba o componía canciones, nació el 17 de febrero de 1917 en Guadalajara, Jalisco; sus <br>
+		padres fueron Arturo González y Sara Camarena.<br><br>
+
+ 		Cuando Guillermo iba a cumplir dos años de edad la familia González se trasladó a la ciudad de México. Desde muy chico se entretenía fabricando <br>
+		juguetes que se movían con electricidad, así que instaló su lugar de trabajo: un laboratorio en el sótano de su casa. A los doce años de edad construyó su <br>
+		primer transmisor de aficionado. En 1930 se inscribió en la Escuela de Ingenieros Mecánicos Y Electricistas, dos años más tarde obtuvo la licencia de <br>
+		operador de radio por parte de la Secretaría de Gobernación.<br><br>
+
+ 		Trabajaba en la radioemisora de la Secretaría de Educación, al mismo tiempo que experimentaba en su laboratorio, hasta que en 1934 fabricó su propia <br>
+		cámara de televisión, contaba con 17 años de edad.<br><br>
+
+ 		Comenzó a mejorar su equipo de televisión, y con la idea latente de darle color, desarrolló un Sistema Tricromático Secuencial de Campos, que patentó <br>
+		al ver que era posible adaptarlo al sistema de blanco y negro. Cuando tenía 23 años le fue otorgada la patente de dicho sistema con el número 40235,<br>
+		que partía de los colores primarios.<br><br>
+
+		Su curiosidad nunca satisfecha lo llevó a incursionar en el campo de la astronomía, fabricó su propio telescopio lo que le valió su ingreso como titular a <br>
+		la Asociación Astronómica de México. En 1941 fue nombrado jefe de operadores de las radiodifusoras XEQ y la XEW.<br><br>
+
+		Continúo perfeccionando su cámara de televisión; en 1942 pasó de las transmisiones de circuito cerrado a las realizadas a distancia, desde el laboratorio del sótano de su casa.<br>
+ 		En el campo de la radiodifusión también hizo aportaciones cuando en 1945 la Secretaría de Comunicaciones y Obras Públicas le encargó un estudio sobre el volumen, el ruido y la atenuación de los sistemas
+		de comunicaciones eléctricas, con el fin de establecer las unidades legales de referencia en el cuadrante del radio. En 1946 el ingeniero Camarena, obtuvo autorización para operar "globos meteorológicos" en la ciudad de México, 
+		con los que subía sus equipos de radio a la estratosfera. Con ello estudiaba hasta donde llegaban las imágenes por él transmitidas. Cuatro años más tarde le tocó elaborar las disposiciones legales que regularizaban el funcionamiento y
+		la operación de las estaciones radiodifusoras nacionales, donde quedaba incluida la televisión, frecuencia modulada, onda corta, onda larga y radio facsímil.<br><br>
+
+ 		En 1948 fundó los laboratorios Gon-Cam, a donde llegaban a trabajar de manera espontánea otros radio experimentadores.<br>
+		Los trabajos de Guillermo González Camarena se extendieron al campo de la medicina cuando se comenzó a emplear la televisión a blanco y negro, <br>
+		después a colores, como vehículo de enseñanza para la materia.<br><br> 
+
+ 		En 1950 el Columbia College de Chicago, solicitó la fabricación del sistema de televisión al joven investigador mexicano y se exportaron al vecino país televisores <br>
+		fabricados en México.<br><br>
+
+		En enero de 1951 fue comisionado por Radio Panamericana, S.A., para localizar y ubicar a la primera estación repetidora de la televisión mexicana,<br> 
+		la cual quedó instalada en Atzomoni, entre el Popocatépetl y el Iztaccíhuatl.<br><br>
+
+ 		En ese mismo año contrajo matrimonio con María Antonieta Becerra Acosta, a quien conoció en la XEW cuando acudió a pedir autógrafos a locutores <br>
+		famosos de la época. La familia Camarena Becerra procreó dos hijos: Guillermo y José Arturo, a quienes el ingeniero les dedicaba sábados y domingos <br>
+		completos.<br><br>
+
+ 		A mediados de la década de los años 50´s se suscitó un auge en la compra de televisores, de manera que el ingeniero Camarena se fusionó con el Canal 2<br>
+		y fue nombrado asesor técnico de Telesistema Mexicano. En 1960 realizó las primeras pruebas en Guadalajara para la transmisión de la imagen a<br>
+		color, recibida con gran beneplácito por los televidentes tapatíos.<br><br>
+
+ 		En noviembre de 1962 se autorizó al ingeniero González Camarena la trasmisión en color a partir de enero de 1963, y el día 21 de ese mes se iniciaron<br>
+		las transmisiones a colores por el Canal 5 con la serie "Paraíso Infantil". El ingeniero insistía en que la televisión por las tardes debía servir principalmente <br>
+		a los niños, por los que siempre manifestó gran interés.<br><br>
+
+ 		La preocupación fundamental del ingeniero fue que sus inventos pudieran ser disfrutados por el público en general, incluidas las personas de escasos <br>
+		recursos. No existiendo una norma oficial internacional de televisión a colores, el 6 de mayo de 1963 el inventor mexicano presentó su Sistema Bicolor <br>
+		Simplificado, que fue bien recibido a nivel internacional, además que resolvía el problema del aspecto económico que representaba para los futuros compradores.<br>
+		Con ese mismo objetivo se interesó en fabricar aparatos receptores por cuenta propia y en 1964 salía el primer modelo de fabricación a gran escala.<br>
+		Al año siguiente estableció un convenio con la fabrica Majestic, propiedad de Emilio Azcárraga Vidaurreta, y en mayo de 1965 se inició la venta de <br>
+		aparatos de televisión a color ya hechos en México.<br><br>
+
+ 		A Guillermo González le interesaba que su sistema se utilizara para alfabetizar, y en coordinación con la Secretaría de Educación Pública, proyectó lo que más adelante se conocería como el Sistema de Educación de Telesecundaria.
+ 		Pocos días entes de su muerte presentó su sistema bicolor simplificado en la Feria Mundial de Nueva York. El 18 de abril de 1965, cuando regresaba de inspeccionar el transmisor repetidos del Canal 5 en el cerro de Las Lajas, Veracruz, encontró la muerte a sus 48 años de edad en un accidente automovilístico.
+
+ 		En 1995 un grupo multidisciplinario preocupado por la investigación científica y tecnológica en México, constituyó la Fundación Guillermo González Camarena, A.C., que busca impulsar el talento y la creatividad de los inventores nacionales. Al ponerle su nombre a la Fundación, se le rinde un homenaje a la creatividad del distinguido científico jalisciense que logró uno de los inventos de mayor repercusión mundial: la televisión a color.
+		</p>
+		
+		<H1 ALIGN="CENTER"><FONT COLOR="#43887B" >Conoce mas sobre Guillermo Gonzalez Camarena</FONT></H1>
+			<center>
+		<video width="640" height="480" controls>
+    			<source src="D:\GGC\vid.mp4" type="video/mp4">
+    			Tu navegador no admite la etiqueta de video.
+  		</video>
+			</center>
+	</body>
+</html>
